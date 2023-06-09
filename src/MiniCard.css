@@ -1,0 +1,36 @@
+.minicard {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 35px 40px;
+  gap: 5px 0;
+  width: 328px;
+  height: 292px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+}
+
+.minicard_title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: #252B42;
+}
+
+.minicard_separator {
+  width: 50px;
+  height: 3px;
+  background-color: #E74040;
+  border-radius: 5px;
+}
+
+.minicard_text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}

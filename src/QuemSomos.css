@@ -1,0 +1,38 @@
+.quem_somos .container {
+  max-width: 1200px;
+  padding: 0 50px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.quem_somos_logo {
+  width: 850px;
+  margin: 10px 0;
+}
+
+.quem_somos_title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: 0.2px;
+  color: #252B42;
+}
+
+.quem_somos_texto::first-letter {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.quem_somos_texto {
+  align-self: flex-start;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #737373;
+  margin: 5px 0;
+}

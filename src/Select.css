@@ -1,0 +1,32 @@
+.label {
+  font-weight: 500;
+  color: #23A6F0;
+}
+
+.label span {
+  font-weight: 500;
+  color: #ff0000;
+}
+
+.select {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #23A6F0;
+  color: #FFB655;
+  border-radius: 5px;
+  margin: 5px 0 20px 0;
+  transition: .3s;
+}
+
+.select:focus {
+  color: #000;
+}
+
+.select:focus::placeholder {
+  color: #000;
+  transition: .3s;
+}
+
+.select::placeholder {
+  color: #FFB655;
+}

@@ -1,0 +1,59 @@
+.aluno_area .container {
+  max-width: 1200px;
+  padding: 0 50px;
+  margin: 0 auto;
+}
+
+.aluno_area_title,
+.aluno_area_nome {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: 0.2px;
+  color: #252B42;
+  text-align: center;
+}
+
+.aluno_area_nome {
+  text-align: left;
+  font-size: 22px;
+  font-weight: normal;
+}
+
+.cursos,
+.niveis {
+  display: flex;
+  justify-content: center;
+  gap: 0 20px;
+}
+
+.cursos .curso,
+.niveis .nivel {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #23A6F0;
+  margin: 10px 0;
+}
+
+.curso_selecionado,
+.nivel_selecionado {
+  text-decoration: underline;
+}
+
+.aulas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.aulas iframe {
+  width: calc(50% - 10px);
+  height: 315px;
+  border: 0;
+  margin: 10px 0 0 0;
+}

@@ -1,0 +1,121 @@
+header {
+  background-color: #fff;
+}
+
+header .container {
+  max-width: 1200px;
+  padding: 0 50px;
+  margin: 0 auto;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 91px;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 0 21px;
+}
+
+header nav ul li a {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #737373;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* .brand_name {
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  font-style: normal;
+  font-weight: 700;
+  color: #252B42;
+  text-decoration: none;
+} */
+
+.brand_name img {
+  width: 256px;
+}
+
+.login_area {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 0 21px;
+}
+
+.btn_login {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+  color: #23A6F0;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn_login:hover {
+  text-decoration: underline;
+}
+
+.btn_signup {
+  padding: 15px 25px;
+  width: 140px;
+  height: 52px;
+  background: #23A6F0;
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn_signup:hover {
+  text-decoration: underline;
+}
+
+.usuario_area {
+  display: flex;
+  align-items: center;
+  gap: 0 10px;
+}
+
+.logout_area {
+  display: flex;
+  align-items: center;
+  gap: 0 5px;
+}
+
+.usuario_area p,
+.usuario_area a {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #23A6F0;
+  text-decoration: none;
+}
+
+.usuario_area a:hover {
+  text-decoration: underline;
+}

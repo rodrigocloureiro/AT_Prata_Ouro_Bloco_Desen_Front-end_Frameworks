@@ -1,0 +1,60 @@
+.principal_area h1 {
+  width: 512px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 80px;
+  letter-spacing: 0.2px;
+  color: #252B42;
+}
+
+.principal_area .container {
+  max-width: 1200px;
+  padding: 0 50px;
+  margin: 0 auto;
+}
+
+.cta_area {
+  display: flex;
+  align-items: center;
+}
+
+.cta_area .cta_decoy {
+  width: 369px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #737373;
+  margin: 35px 0;
+}
+
+.btn_cta {
+  padding: 15px 40px;
+  background-color: #23A6F0;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn_cta:hover {
+  text-decoration: underline;
+}
+
+.btn_cta:not(.btn_cta:last-child) {
+  margin-right: 10px;
+}
+
+.btn_cta_inverted {
+  background-color: transparent;
+  border: 1px solid #23A6F0;
+  border-radius: 5px;
+  color: #23A6F0;
+}
+
+.minicards {
+  display: flex;
+  gap: 0 30px;
+}

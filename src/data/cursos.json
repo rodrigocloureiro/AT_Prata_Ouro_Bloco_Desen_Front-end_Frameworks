@@ -1,0 +1,4 @@
+{
+  "cursos": ["Inglês", "Espanhol", "Alemão", "Francês", "Italiano"],
+  "niveis": ["Básico", "Intermediário", "Avançado"]
+}

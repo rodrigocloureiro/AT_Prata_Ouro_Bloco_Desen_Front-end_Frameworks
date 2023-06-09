@@ -1,0 +1,55 @@
+.professor_area .container {
+  max-width: 1200px;
+  padding: 0 50px;
+  margin: 0 auto;
+}
+
+.professor_area_title,
+.professor_area_subtitle,
+.professor_area_nome,
+.aluno,
+.turma_detalhes {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: 0.2px;
+  color: #252B42;
+  text-align: center;
+}
+
+.professor_area_subtitle {
+  font-size: 32px;
+}
+
+.professor_area_nome {
+  text-align: left;
+  font-size: 22px;
+  font-weight: normal;
+}
+
+/* .lista_alunos {
+  list-style: none;
+} */
+
+.aluno {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  color: #23A6F0;
+  border-bottom: 1px solid #FFB655;
+  padding: 0 10px;
+}
+
+.aluno__detalhes {
+  display: flex;
+  gap: 0 20px;
+}
+
+.turma_detalhes {
+  text-align: left;
+  font-size: 20px;
+  line-height: inherit;
+  margin: 5px 0;
+  font-weight: 400;
+}

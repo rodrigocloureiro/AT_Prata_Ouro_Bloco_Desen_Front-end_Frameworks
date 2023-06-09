@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "curso": "Inglês",
+    "nivel": "Básico",
+    "aulas": [
+      "https://www.youtube.com/embed/XbL9_FDaVYU",
+      "https://www.youtube.com/embed/Xm9yGUaUoMs",
+      "https://www.youtube.com/embed/tbcqsJyaees",
+      "https://www.youtube.com/embed/KZ7JG7wiijA",
+      "https://www.youtube.com/embed/pJjkh5ITNbU",
+      "https://www.youtube.com/embed/2NCBo8o2Wmk",
+      "https://www.youtube.com/embed/Nk1kHB5J7gA",
+      "https://www.youtube.com/embed/h-kk3maDZ9k"
+    ]
+  },
+  {
+    "id": 1,
+    "curso": "Espanhol",
+    "nivel": "Avançado",
+    "aulas": [
+      "https://www.youtube.com/embed/ab350YmhTmY",
+      "https://www.youtube.com/embed/a3zdpXz95F0",
+      "https://www.youtube.com/embed/G-H1HDFWlO0",
+      "https://www.youtube.com/embed/0PgW85PnaPQ",
+      "https://www.youtube.com/embed/qCptMGSiDco",
+      "https://www.youtube.com/embed/G2GjUi8Y9XE",
+      "https://www.youtube.com/embed/OH-OhpjdyUI",
+      "https://www.youtube.com/embed/2OCJh3qeHGI"
+    ]
+  }
+]

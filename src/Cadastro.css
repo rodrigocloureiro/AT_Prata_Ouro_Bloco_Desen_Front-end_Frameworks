@@ -1,0 +1,29 @@
+.cadastro .container {
+  max-width: 1200px;
+  padding: 0 50px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cadastro_title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: 0.2px;
+  color: #252B42;
+}
+
+.cadastro_area form {
+  width: 571px;
+  padding: 150px 0;
+}
+
+.cadastro_area .aviso {
+  font-size: 12px;
+  text-align: end;
+  color: #ff0000;
+  margin: -15px 0 5px 0;
+}

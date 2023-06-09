@@ -1,0 +1,214 @@
+[
+  {
+    "id": 1,
+    "nome": "Rodrigo Loureiro",
+    "username": "rod7", 
+    "senha": "rodrigo7",
+    "tipo": "aluno",
+    "curso": "Inglês",
+    "nivel": "Básico"
+  },
+  {
+    "id": 2,
+    "nome": "Marcos Paulo",
+    "username": "marquin55", 
+    "senha": "marquin55",
+    "tipo": "professor",
+    "curso": "Espanhol"
+  },
+  {
+    "id": 3,
+    "nome": "Marcos Leonardo",
+    "username": "marcosleo", 
+    "senha": "marcos123",
+    "tipo": "coordenador"
+  },
+  {
+    "id": 4,
+    "nome": "Ana Beatriz",
+    "username": "bia.ana", 
+    "senha": "banana",
+    "tipo": "aluno",
+    "curso": "Espanhol",
+    "nivel": "Avançado"
+  },
+  {
+    "id": 5,
+    "nome": "João Silva",
+    "username": "joao.silva",
+    "senha": "banana",
+    "tipo": "aluno",
+    "curso": "Espanhol",
+    "nivel": "Básico"
+  },
+  {
+    "id": 6,
+    "nome": "Mariana Santos",
+    "username": "mariana.santos",
+    "senha": "banana",
+    "tipo": "aluno",
+    "curso": "Espanhol",
+    "nivel": "Básico"
+  },
+  {
+    "id": 7,
+    "nome": "Pedro Almeida",
+    "username": "pedro.almeida",
+    "senha": "banana",
+    "tipo": "aluno",
+    "curso": "Espanhol",
+    "nivel": "Básico"
+  },
+  {
+    "id": 8,
+    "nome": "Juliana Oliveira",
+    "username": "juliana.oliveira",
+    "senha": "banana",
+    "tipo": "aluno",
+    "curso": "Espanhol",
+    "nivel": "Básico"
+  },
+  {
+    "id": 9,
+    "nome": "Lucas Mendes",
+    "username": "lucas.mendes",
+    "senha": "banana",
+    "tipo": "aluno",
+    "curso": "Espanhol",
+    "nivel": "Básico"
+  },
+  {
+    "id": 10,
+    "nome": "Carolina Ferreira",
+    "username": "carolina.ferreira",
+    "senha": "banana",
+    "tipo": "aluno",
+    "curso": "Espanhol",
+    "nivel": "Básico"
+  },
+  {
+    "id": 11,
+    "nome": "Rafaela Costa",
+    "username": "rafaela.costa",
+    "senha": "banana",
+    "tipo": "aluno",
+    "curso": "Espanhol",
+    "nivel": "Básico"
+  },
+  {
+    "id": 12,
+    "nome": "Gustavo Ramos",
+    "username": "gustavo.ramos",
+    "senha": "banana",
+    "tipo": "aluno",
+    "curso": "Espanhol",
+    "nivel": "Básico"
+  },
+  {
+    "id": 13,
+    "nome": "Beatriz Fernandes",
+    "username": "beatriz.fernandes",
+    "senha": "banana",
+    "tipo": "aluno",
+    "curso": "Espanhol",
+    "nivel": "Básico"
+  },
+  {
+    "id": 14,
+    "nome": "Mateus Silva",
+    "username": "mateus.silva",
+    "senha": "banana",
+    "tipo": "aluno",
+    "curso": "Espanhol",
+    "nivel": "Básico"
+  },
+  {
+    "id": 15,
+    "nome": "Sophia Johnson",
+    "username": "sophia.johnson",
+    "senha": "banana",
+    "tipo": "aluno",
+    "curso": "Inglês",
+    "nivel": "Básico"
+  },
+  {
+    "id": 16,
+    "nome": "Liam Thompson",
+    "username": "liam.thompson",
+    "senha": "banana",
+    "tipo": "aluno",
+    "curso": "Inglês",
+    "nivel": "Básico"
+  },
+  {
+    "id": 17,
+    "nome": "Olivia Davis",
+    "username": "olivia.davis",
+    "senha": "banana",
+    "tipo": "aluno",
+    "curso": "Inglês",
+    "nivel": "Básico"
+  },
+  {
+    "id": 18,
+    "nome": "Noah Wilson",
+    "username": "noah.wilson",
+    "senha": "banana",
+    "tipo": "aluno",
+    "curso": "Inglês",
+    "nivel": "Básico"
+  },
+  {
+    "id": 19,
+    "nome": "Ava Thomas",
+    "username": "ava.thomas",
+    "senha": "banana",
+    "tipo": "aluno",
+    "curso": "Inglês",
+    "nivel": "Básico"
+  },
+  {
+    "id": 20,
+    "nome": "William Martinez",
+    "username": "william.martinez",
+    "senha": "banana",
+    "tipo": "aluno",
+    "curso": "Inglês",
+    "nivel": "Básico"
+  },
+  {
+    "id": 21,
+    "nome": "Isabella Anderson",
+    "username": "isabella.anderson",
+    "senha": "banana",
+    "tipo": "aluno",
+    "curso": "Inglês",
+    "nivel": "Básico"
+  },
+  {
+    "id": 22,
+    "nome": "James Johnson",
+    "username": "james.johnson",
+    "senha": "banana",
+    "tipo": "aluno",
+    "curso": "Inglês",
+    "nivel": "Básico"
+  },
+  {
+    "id": 23,
+    "nome": "Mia Davis",
+    "username": "mia.davis",
+    "senha": "banana",
+    "tipo": "aluno",
+    "curso": "Inglês",
+    "nivel": "Básico"
+  },
+  {
+    "id": 24,
+    "nome": "Ana Júlia",
+    "username": "ana.julia", 
+    "senha": "banana",
+    "tipo": "professor",
+    "curso": "Inglês"
+  }
+]

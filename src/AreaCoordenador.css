@@ -1,0 +1,51 @@
+.coordenador_area .container {
+  max-width: 1200px;
+  padding: 0 50px;
+  margin: 0 auto;
+}
+
+.coordenador_area_title,
+.coordenador_area_subtitle,
+.coordenador_area_nome,
+.funcionario {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: 0.2px;
+  color: #252B42;
+  text-align: center;
+}
+
+.coordenador_area_subtitle {
+  font-size: 32px;
+}
+
+.coordenador_area_nome {
+  text-align: left;
+  font-size: 22px;
+  font-weight: normal;
+}
+
+.lista_alunos,
+.lista_funcionarios {
+  list-style: none;
+  margin: 0 0 10px 0;
+}
+
+.funcionario {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  color: #23A6F0;
+  border-bottom: 1px solid #FFB655;
+  padding: 0 10px;
+}
+
+.coordenacao_detalhes {
+  text-align: left;
+  font-size: 20px;
+  line-height: inherit;
+  margin: 5px 0;
+  font-weight: 400;
+}
