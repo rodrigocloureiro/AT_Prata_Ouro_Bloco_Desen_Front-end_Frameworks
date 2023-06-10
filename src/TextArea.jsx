@@ -1,6 +1,6 @@
 import "./Input.css";
 
-export default function TextArea({ label, name, id, placeholder }) {
+export default function TextArea({ label, name, id, placeholder, valor, handleEvent }) {
   return (
     <>
       <label htmlFor={name} className="label">
@@ -11,6 +11,8 @@ export default function TextArea({ label, name, id, placeholder }) {
         id={id}
         placeholder={placeholder}
         className="input"
+        value={valor}
+        onChange={handleEvent}
       />
     </>
   );

@@ -1,8 +1,15 @@
 import "./TrabalheConosco.css";
 import Input from "./Input";
 import TextArea from "./TextArea";
+import { useState } from "react";
 
+//item 3.1 realizado 
 export default function TrabalheConosco() {
+  const [ nome, setNome ] = useState('');
+  const [ email, setEmail ] = useState('');
+  const [ telefone, setTelefone ] = useState('');
+  const [ curriculo, setCurriculo ] = useState('');
+
   return (
     <article className="trabalhe_conosco">
       <div className="container">
@@ -15,6 +22,8 @@ export default function TrabalheConosco() {
               name="nome"
               id="nome"
               placeholder="Jorge Elias Silva"
+              valor={nome}
+              handleEvent={(e) => setNome(e.target.value)}
             />
             <Input
               label="E-mail:"
@@ -22,6 +31,8 @@ export default function TrabalheConosco() {
               name="email"
               id="email"
               placeholder="elias.jorge@gmail.com"
+              valor={email}
+              handleEvent={(e) => setEmail(e.target.value)}
             />
             <Input
               label="Telefone:"
@@ -30,12 +41,16 @@ export default function TrabalheConosco() {
               id="telefone"
               pattern="^\(\d{2}\) \d{5}-\d{4}$"
               placeholder="(21) 99912-5003"
+              valor={telefone}
+              handleEvent={(e) => setTelefone(e.target.value)}
             />
             <TextArea
               label="Currículo:"
               name="curriculo"
               id="curriculo"
               placeholder="Detalhe aqui o seu currículo"
+              valor={curriculo}
+              handleEvent={(e) => setCurriculo(e.target.value)}
             />
             <p className="aviso">* Item de preenchimento obrigatório</p>
             <Input type="submit" />
