@@ -61,7 +61,7 @@ export default class FaleConosco extends Component {
                 handleEvent={(e) => this.setState({mensagem: e.target.value})}
               />
               <p className="aviso">* Item de preenchimento obrigatório</p>
-              //item 3.2 realizado
+              {/* item 3.2 realizado */}
               <Botao
                 type="submit"
                 texto="Enviar"
