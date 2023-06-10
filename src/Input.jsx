@@ -1,6 +1,6 @@
 import "./Input.css";
 
-export default function Input({ label, type, name, id, pattern, valor, placeholder, handleEvent }) {
+export default function Input({ label, type, name, id, pattern, valor, placeholder, handleEvent, handleInput }) {
   return (
     <>
       {(type !== "submit" && type !== "checkbox") && (
@@ -17,6 +17,7 @@ export default function Input({ label, type, name, id, pattern, valor, placehold
         value={valor}
         placeholder={placeholder}
         onChange={handleEvent}
+        onInput={handleInput}
         required
       />
     </>

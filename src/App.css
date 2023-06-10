@@ -1,0 +1,15 @@
+.aviso_form {
+  font-size: 12px;
+  color: #ff0000;
+  margin: -15px 0 5px 0;
+}
+
+.container .enviou_form {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #737373;
+  align-self: flex-start;
+}
