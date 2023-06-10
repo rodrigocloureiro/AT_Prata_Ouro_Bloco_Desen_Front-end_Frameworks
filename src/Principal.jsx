@@ -13,7 +13,7 @@ export default class Principal extends Component {
   }
 
   render() {
-    //item 1.8 realizado
+    //item 1.8 realizado && tem 4.2 realizado
     return (
       <article className="principal_area">
         <div className="container">

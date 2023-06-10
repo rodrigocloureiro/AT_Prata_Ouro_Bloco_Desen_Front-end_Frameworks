@@ -73,6 +73,7 @@ function App() {
     setUsuario(user);
   };
 
+  //item 4.1 realizado && item 4.3 realizado
   return (
     <>
     <Router>
@@ -85,7 +86,7 @@ function App() {
           <Route path="/trabalhe_conosco" element={<TrabalheConosco />} />
           <Route path="/login" element={<Login setLogado={setLogado} logado={logado} handleUsuario={handleUsuario} corpo={state} />} />
           <Route path="/cadastre-se" element={<Cadastro handleAdicionaMembro={handleAdicionaMembro} />} />
-          <Route path="/area_aluno" element={<AreaAluno usuario={usuario} />} />
+          <Route path="/area_aluno/:matricula" element={<AreaAluno usuario={usuario} />} />
           <Route path="/area_professor" element={<AreaProfessor corpo={state} usuario={usuario} />} />
           <Route path="/area_coordenador" element={<AreaCoordenador corpo={state} usuario={usuario} />} />
         </Routes>

@@ -1,6 +1,7 @@
 import "./AreaAluno.css";
 import { Component } from "react";
 import { useEffect, useLayoutEffect, useState } from "react";
+import { useParams } from "react-router-dom";
 
 //item 2.2 realizado
 
@@ -77,6 +78,8 @@ import { useEffect, useLayoutEffect, useState } from "react";
 export default function AreaAluno({usuario}) {
   //item 2.1 realizado
   const [ aulasCurso, setAulasCurso ] = useState([]);
+  //item 4.3 realizado
+  const { matricula } = useParams();
 
   //item 1.4 realizado && item 2.3 realizado
   useEffect(() => {
@@ -103,6 +106,7 @@ export default function AreaAluno({usuario}) {
       <div className="container">
         <h2 className="aluno_area_title">Área do Aluno</h2>
         <p className="aluno_area_nome">Olá, {usuario.nome} - Sala de Aula</p>
+        <p className="aluno_area_nome">Matrícula: {matricula}</p>
         <div className="cursos">
           <p className={usuario.curso === "Espanhol" ? "curso curso_selecionado" : "curso"}>
             Espanhol

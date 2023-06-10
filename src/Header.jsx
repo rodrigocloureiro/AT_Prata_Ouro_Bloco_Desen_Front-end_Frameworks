@@ -1,5 +1,5 @@
 import { Component } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import './Header.css';
 import logo from './assets/global_connect_logo.png';
 
@@ -11,37 +11,37 @@ export default class Header extends Component {
   render() {
     const { logado, setLogado, usuario } = this.props;
     
-    //item 1.8 realizado
+    //item 1.8 realizado && item 4.3 realizado
     return (
       <header>
         <div className="container">
           <nav>
-            <Link to='/' className="brand_name">
+            <NavLink to='/' className="brand_name">
               <img src={logo} alt="Logo GlobalConnect" />
-            </Link>
+            </NavLink>
             <ul>
               <li>
-                <Link to="/quem_somos">Quem Somos</Link>
+                <NavLink to="/quem_somos">Quem Somos</NavLink>
               </li>
               <li>
-                <Link to="/fale_conosco">Fale Conosco</Link>
+                <NavLink to="/fale_conosco">Fale Conosco</NavLink>
               </li>
               <li>
-                <Link to="/trabalhe_conosco">Trabalhe Conosco</Link>
+                <NavLink to="/trabalhe_conosco">Trabalhe Conosco</NavLink>
               </li>
             </ul>
             {!logado ?
               <div className="login_area">
-                <Link to="/login" className="btn_login">Entrar</Link>
-                <Link to="/cadastre-se" className="btn_signup">Cadastre-se</Link>
+                <NavLink to="/login" className="btn_login">Entrar</NavLink>
+                <NavLink to="/cadastre-se" className="btn_signup">Cadastre-se</NavLink>
               </div>
               :
               <div className="usuario_area">
                 <p>{usuario.nome}</p>
                 <p>|</p>
-                <Link to={`/area_${usuario.tipo}`}>Área do {usuario.tipo}</Link>
+                <NavLink to={`/area_${usuario.tipo}/${usuario.id}`}>Área do {usuario.tipo}</NavLink>
                 <p>|</p>
-                <Link to="/" onClick={() => setLogado(false)}>Sair</Link>
+                <NavLink to="/" onClick={() => setLogado(false)}>Sair</NavLink>
               </div>
             }
           </nav>
