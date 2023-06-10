@@ -2,6 +2,8 @@ import "./AreaAluno.css";
 import { Component } from "react";
 import { useEffect, useLayoutEffect, useState } from "react";
 
+//item 2.2 realizado
+
 // export default class AreaAluno extends Component {
 //   constructor(props) {
 //     super(props);
@@ -71,21 +73,26 @@ import { useEffect, useLayoutEffect, useState } from "react";
 //   }
 // }
 
+//item 2.2 realizado
 export default function AreaAluno({usuario}) {
+  //item 2.1 realizado
   const [ aulasCurso, setAulasCurso ] = useState([]);
 
-  // componentDidMount() -> useEffect()
+  //item 1.4 realizado && item 2.3 realizado
   useEffect(() => {
+    //item 1.6 realizado
     fetch('../src/data/aulas.json')
     .then(response => response.json())
     .then(data => {
       data.forEach(item => {
         if(usuario.curso === item.curso && usuario.nivel === item.nivel)
+          //item 1.3 realizado
           setAulasCurso(item.aulas);
       })
     });
   }, []);
 
+  //item 2.4 realizado
   useLayoutEffect(() => {
     document.title = `${usuario.nome}`;
     return () => document.title = 'GlobalConnect: Curso de Idiomas Online';

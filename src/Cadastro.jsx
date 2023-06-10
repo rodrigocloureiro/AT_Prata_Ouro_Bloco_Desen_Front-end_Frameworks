@@ -20,12 +20,15 @@ export default class Cadastro extends Component {
     };
   }
 
+  //item 1.4 realizado
   async componentDidMount() {
+    //item 1.6 realizado
     const response = await fetch("src/data/cursos.json");
     const data = await response.json();
     this.setState({cursos: data.cursos, niveis: data.niveis});
   }
 
+  //item 1.4 realizado
   componentWillUnmount() {
     this.setState({
       cursos: [],
@@ -40,12 +43,14 @@ export default class Cadastro extends Component {
     });
   }
 
+  //item 1.2 realizado
   handleValidacao = (e) => {
     const { nome, username, senha, confirmaSenha, curso, nivel } = this.state;
     const { handleAdicionaMembro } = this.props;
     e.preventDefault();
     if(nome.trim() !== "" && username.trim() !== ""  && nivel.trim() !== "" && (senha === confirmaSenha)) {
       handleAdicionaMembro(nome, curso, nivel, username, senha);
+      //item 1.3 realizado
       this.setState({cadastrou: true});
     }
   };
@@ -53,6 +58,7 @@ export default class Cadastro extends Component {
   render() {
     const { cursos, niveis, nome, username, senha, confirmaSenha, curso, nivel, cadastrou } = this.state;
 
+    //item 1.3 realizado
     return (
       <article className="cadastro">
         <div className="container">

@@ -11,6 +11,7 @@ export default class Header extends Component {
   render() {
     const { logado, setLogado, usuario } = this.props;
     
+    //item 1.8 realizado
     return (
       <header>
         <div className="container">

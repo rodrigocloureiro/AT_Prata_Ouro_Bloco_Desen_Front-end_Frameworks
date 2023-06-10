@@ -12,14 +12,17 @@ export default class Login extends Component {
       senha: '',
       tipo: '',
     };
+    //item 1.1 realizado
     this.handleLogin = this.handleLogin.bind(this);
   }
 
+  //item 1.1 realizado
   handleLogin(e) {
     const { setLogado, handleUsuario } = this.props;
     e.preventDefault();
     const {dados, username, senha, tipo} = this.state;
     if(dados.some(dado => dado.username === username && dado.senha === senha && dado.tipo === tipo)) {
+      //item 1.3 realizado
       setLogado(true);
       handleUsuario(dados.find(dado => dado.username === username && dado.senha === senha && dado.tipo === tipo));
     } else {
@@ -27,18 +30,24 @@ export default class Login extends Component {
     }
   }
 
+  //item 1.2 realizado
   handleUsername = (e) => {
+    //item 1.3 realizado
     this.setState({username: e.target.value});
   }
 
+  //item 1.2 realizado
   handlePassword = (e) => {
+    //item 1.3 realizado
     this.setState({senha: e.target.value})
   }
 
+  //item 1.2 realizado
   handleSelecionaCaixa = (e) => {
     const caixas = document.querySelectorAll('.login_area_caixa_selecionavel');
     caixas.forEach(caixa => caixa.classList.remove('preenchimento_caixa'));
     e.target.classList.add('preenchimento_caixa');
+    //item 1.3 realizado
     this.setState({tipo: e.target.nextSibling.textContent.toLowerCase()});
   }
 

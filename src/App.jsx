@@ -1,3 +1,4 @@
+//item 1.5 realizado - 6 componentes criados e importados abaixo
 import "./App.css";
 import Header from "./Header";
 import Principal from './Principal';
@@ -13,6 +14,12 @@ import AreaAluno from "./AreaAluno";
 import AreaProfessor from "./AreaProfessor";
 import AreaCoordenador from "./AreaCoordenador";
 
+// Itens mais geneéricos eu coloquei acima do componente principal da aplicação
+//item 1.7 realizado
+//item 1.9 realizado
+//item 2.6 realizado
+//item 2.7 realizado
+
 function reducer(state, action) {
   switch(action.type) {
     case "atualizar":
@@ -25,21 +32,28 @@ function reducer(state, action) {
 }
 
 function App() {
+  //item 2.1 realizado
   const [ logado, setLogado ] = useState(false);
   const [ usuario, setUsuario ] = useState({});
   const [ corpo, setCorpo ] = useState([]); // Corpo discente e docente
+  //item 2.5 realizado
   const [ state, dispatch ] = useReducer(reducer, corpo);
 
+  //item 1.4 realizado && item 2.3 realizado
   useEffect(() => {
     (async () => {
+      //item 1.6 realizado
       const response = await fetch("src/data/dados_login.json");
       const data = await response.json();
+      //item 1.3 realizado
       setCorpo(data);
     })();
   }, []);
 
+  //item 1.4 realizado && item 2.3 realizado
   useEffect(() => dispatch({type: "atualizar", corpo: corpo}), [corpo]);
 
+  //item 1.2 realizado
   const handleAdicionaMembro = (nome, curso, nivel, username, senha) => {
     const novoMembro = {
       id: state.length + 1,
@@ -53,7 +67,9 @@ function App() {
     dispatch({type: "matricular", membro: novoMembro});
   };
 
+  //item 1.2 realizado
   const handleUsuario = (user) => {
+    //item 1.3 realizado
     setUsuario(user);
   };
 
