@@ -81,7 +81,7 @@ function App() {
       <main>
         <Routes>
           <Route path="/" element={<Principal />} />
-          <Route path="quem_somos" element={<QuemSomos />} />
+          <Route path="/quem_somos" element={<QuemSomos />} />
           <Route path="/fale_conosco" element={<FaleConosco />} />
           <Route path="/trabalhe_conosco" element={<TrabalheConosco />} />
           <Route path="/login" element={<Login setLogado={setLogado} logado={logado} handleUsuario={handleUsuario} corpo={state} />} />
