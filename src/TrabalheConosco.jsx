@@ -2,6 +2,7 @@ import "./TrabalheConosco.css";
 import Input from "./Input";
 import TextArea from "./TextArea";
 import { useState } from "react";
+import Botao from "./Botao";
 
 //item 3.1 realizado 
 export default function TrabalheConosco() {
@@ -53,7 +54,11 @@ export default function TrabalheConosco() {
               handleEvent={(e) => setCurriculo(e.target.value)}
             />
             <p className="aviso">* Item de preenchimento obrigatório</p>
-            <Input type="submit" />
+            //item 3.2 realizado
+            <Botao
+              type="submit"
+              texto="Enviar"
+            />
           </form>
         </div>
       </div>

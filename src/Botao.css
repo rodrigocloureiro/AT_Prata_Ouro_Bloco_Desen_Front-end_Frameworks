@@ -1,0 +1,23 @@
+.botao_personalizado {
+  width: 100%;
+  background-color: transparent;
+  color: #23A6F0;
+  font-size: 16px;
+  max-height: 39px;
+  transition: .3s;
+  padding: 10px;
+  border: 2px solid #23A6F0;
+  color: #FFB655;
+  border-radius: 5px;
+  margin: 5px 0 20px 0;
+  transition: .3s;
+  cursor: pointer;
+}
+
+.botao_personalizado:hover {
+  color: #fff;
+  background-color: #23A6F0;
+  font-size: 16px;
+  max-height: 39px;
+  transition: .3s;
+}

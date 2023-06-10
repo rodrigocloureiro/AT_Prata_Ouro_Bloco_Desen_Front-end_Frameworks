@@ -2,6 +2,7 @@ import { Component } from "react";
 import "./FaleConosco.css";
 import Input from "./Input";
 import TextArea from "./TextArea";
+import Botao from "./Botao";
 
 //item 3.1 realizado 
 export default class FaleConosco extends Component {
@@ -60,7 +61,11 @@ export default class FaleConosco extends Component {
                 handleEvent={(e) => this.setState({mensagem: e.target.value})}
               />
               <p className="aviso">* Item de preenchimento obrigatório</p>
-              <Input type="submit" />
+              //item 3.2 realizado
+              <Botao
+                type="submit"
+                texto="Enviar"
+              />
             </form>
           </div>
         </div>
