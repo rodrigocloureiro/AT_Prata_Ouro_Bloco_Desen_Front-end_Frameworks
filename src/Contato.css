@@ -1,0 +1,30 @@
+.contato_area {
+  width: 100%;
+}
+
+.contato_area__contatos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0 50px;
+}
+
+/* .contato {
+  min-width: 33.33%;
+} */
+
+.contato_title {
+  font-size: 22px;
+}
+
+.contato_subtitle {
+  font-size: 20px;
+  margin: 5px 0 10px 0;
+}
+
+.contato_title,
+.contato_subtitle,
+.contato_info {
+  color: #252B42;
+  font-weight: 500;
+}

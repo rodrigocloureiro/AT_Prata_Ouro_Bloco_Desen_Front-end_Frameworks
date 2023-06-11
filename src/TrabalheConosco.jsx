@@ -129,6 +129,10 @@ export default function TrabalheConosco() {
             <Botao
               type="submit"
               texto="Enviar"
+              largura="100%"
+              corTexto="#23A6F0"
+              radius="5px"
+              padding="10px"
             />
           </form>
         </div>

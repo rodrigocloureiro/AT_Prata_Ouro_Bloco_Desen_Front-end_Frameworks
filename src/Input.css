@@ -27,7 +27,7 @@
   transition: .3s;
 }
 
-/* .input[type="submit"] {
+.input[type="submit"] {
   cursor: pointer;
   background-color: transparent;
   color: #23A6F0;
@@ -43,7 +43,7 @@
   font-size: 16px;
   max-height: 39px;
   transition: .3s;
-} */
+}
 
 .input[name="mensagem"],
 .input[name="curriculo"] {

@@ -29,6 +29,9 @@ export default class Header extends Component {
               <li>
                 <NavLink to="/trabalhe_conosco">Trabalhe Conosco</NavLink>
               </li>
+              <li>
+                <NavLink to="/contatos">Contatos</NavLink>
+              </li>
             </ul>
             {!logado ?
               <div className="login_area">

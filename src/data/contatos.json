@@ -1,0 +1,44 @@
+{
+  "contatos": [
+    {
+      "id": "contato#1",
+      "contato": "Financeiro",
+      "path": "financeiro",
+      "texto": "Se você tiver dúvidas relacionadas a pagamentos, faturas, transações financeiras ou qualquer assunto relacionado às questões financeiras da empresa, recomendamos que entre em contato com nossa equipe do setor financeiro. Eles poderão fornecer as informações necessárias e ajudá-lo com suas solicitações financeiras.",
+      "horarios": ["Segunda à Sexta: 09h - 18h", "Sábado: Não disponível", "Domingos e Feriados: Não disponível"],
+      "contatos": ["E-mail: financeiro@globalconnect.com.br", "Telefone: (21) 2234-4061", "WhatsApp: (21) 99999-5000"]
+    },
+    {
+      "id": "contato#2",
+      "contato": "Secretaria Virtual",
+      "path": "secretaria_virtual",
+      "texto": "Caso precise de informações gerais sobre nossos cursos, horários, matrículas ou qualquer outra questão, nossa equipe da secretaria virtual está pronta para atendê-lo. Eles fornecerão orientações detalhadas e ajudarão a esclarecer suas dúvidas.",
+      "horarios": ["Segunda à Sexta: 09h - 18h", "Sábado: Não disponível", "Domingos e Feriados: Não disponível"],
+      "contatos": ["E-mail: secretaria@globalconnect.com.br", "Telefone: (21) 4020-2040", "WhatsApp: (21) 99898-8779"]
+    },
+    {
+      "id": "contato#3",
+      "contato": "Controladoria",
+      "path": "controladoria",
+      "texto": "Se você é um aluno ou cliente corporativo e precisa de suporte relacionado a questões de controle, relatórios financeiros, análise de desempenho ou qualquer outra questão relacionada à controladoria, nossa equipe especializada estará disponível para fornecer assistência. Entre em contato com o setor de controladoria para obter informações relevantes.",
+      "horarios": ["Segunda à Sexta: 09h - 18h", "Sábado: Não disponível", "Domingos e Feriados: Não disponível"],
+      "contatos": ["E-mail: controladoria@globalconnect.com.br", "Telefone: (11) 4002-8922", "WhatsApp: (11) 98160-2902"]
+    },
+    {
+      "id": "contato#4",
+      "contato": "Administração",
+      "path": "administracao",
+      "texto": "Para questões gerais relacionadas à administração da empresa, como parcerias, oportunidades de negócios, licenciamento ou outras consultas administrativas, nossa equipe de administração estará à disposição para ajudá-lo. Eles podem fornecer orientações, informações e esclarecer quaisquer dúvidas relacionadas à nossa empresa.",
+      "horarios": ["Segunda à Sexta: 09h - 16h", "Sábado: 09h - 12h", "Domingos e Feriados: Não disponível"],
+      "contatos": ["E-mail: administracao@globalconnect.com.br", "Telefone: (21) 2065-6520", "WhatsApp: (21) 99935-4002"]
+    },
+    {
+      "id": "contato#5",
+      "contato": "Suporte",
+      "path": "suporte",
+      "texto": "Caso você precise de assistência técnica, suporte ao aluno, problemas com a plataforma ou qualquer outra questão relacionada ao suporte técnico, recomendamos entrar em contato com nossa equipe de suporte. Eles estão capacitados para solucionar problemas técnicos e fornecer o suporte necessário para que você possa aproveitar ao máximo nossos cursos.",
+      "horarios": ["Segunda à Sexta: 09h - 22h", "Sábado: 09h - 14h", "Domingos e Feriados: Não disponível"],
+      "contatos": ["E-mail: suporte@globalconnect.com.br", "Telefone: (21) 2234-4062", "WhatsApp: (21) 99912-5003"]
+    }
+  ]
+}

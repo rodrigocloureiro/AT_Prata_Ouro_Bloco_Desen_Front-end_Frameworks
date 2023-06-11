@@ -13,6 +13,8 @@ import { useEffect, useState, useReducer } from "react";
 import AreaAluno from "./AreaAluno";
 import AreaProfessor from "./AreaProfessor";
 import AreaCoordenador from "./AreaCoordenador";
+import Contatos from "./Contatos";
+import Contato from "./Contato";
 
 // Itens mais geneéricos eu coloquei acima do componente principal da aplicação
 //item 1.7 realizado
@@ -36,6 +38,7 @@ function App() {
   const [ logado, setLogado ] = useState(false);
   const [ usuario, setUsuario ] = useState({});
   const [ corpo, setCorpo ] = useState([]); // Corpo discente e docente
+  const [ contatos, setContatos ] = useState([]);
   //item 2.5 realizado
   const [ state, dispatch ] = useReducer(reducer, corpo);
 
@@ -43,7 +46,7 @@ function App() {
   useEffect(() => {
     (async () => {
       //item 1.6 realizado
-      const response = await fetch("src/data/dados_login.json");
+      const response = await fetch("../src/data/dados_login.json");
       const data = await response.json();
       //item 1.3 realizado
       setCorpo(data);
@@ -73,7 +76,7 @@ function App() {
     setUsuario(user);
   };
 
-  //item 4.1 realizado && item 4.3 realizado
+  //item 4.1 realizado && item 4.3 realizado && item 4.4 realizado
   return (
     <>
     <Router>
@@ -84,11 +87,16 @@ function App() {
           <Route path="/quem_somos" element={<QuemSomos />} />
           <Route path="/fale_conosco" element={<FaleConosco />} />
           <Route path="/trabalhe_conosco" element={<TrabalheConosco />} />
+          {/* item 4.4 realizado */}
+          <Route path="/contatos" element={<Contatos setContatos={setContatos} />}>
+            <Route path=":contatoID" element={<Contato contatos={contatos} />} />
+          </Route>
           <Route path="/login" element={<Login setLogado={setLogado} logado={logado} handleUsuario={handleUsuario} corpo={state} />} />
           <Route path="/cadastre-se" element={<Cadastro handleAdicionaMembro={handleAdicionaMembro} />} />
+          {/* item 4.3 realizado */}
           <Route path="/area_aluno/:matricula" element={<AreaAluno usuario={usuario} />} />
-          <Route path="/area_professor" element={<AreaProfessor corpo={state} usuario={usuario} />} />
-          <Route path="/area_coordenador" element={<AreaCoordenador corpo={state} usuario={usuario} />} />
+          <Route path="/area_professor/:registro" element={<AreaProfessor corpo={state} usuario={usuario} />} />
+          <Route path="/area_coordenador/:id" element={<AreaCoordenador corpo={state} usuario={usuario} />} />
         </Routes>
       </main>
       <Footer />
