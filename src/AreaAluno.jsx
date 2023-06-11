@@ -106,7 +106,7 @@ export default function AreaAluno({usuario}) {
       <div className="container">
         <h2 className="aluno_area_title">Área do Aluno</h2>
         <p className="aluno_area_nome">Olá, {usuario.nome} - Sala de Aula</p>
-        <p className="aluno_area_nome">Matrícula: {matricula}</p>
+        <p className="aluno_area_nome">Matrícula: #{matricula.padStart(5, 0)}</p>
         <div className="cursos">
           <p className={usuario.curso === "Espanhol" ? "curso curso_selecionado" : "curso"}>
             Espanhol
