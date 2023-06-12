@@ -28,5 +28,200 @@
       "https://www.youtube.com/embed/OH-OhpjdyUI",
       "https://www.youtube.com/embed/2OCJh3qeHGI"
     ]
+  },
+  {
+    "id": 3,
+    "curso": "Espanhol",
+    "nivel": "Intermediário",
+    "aulas": [
+      "https://www.youtube.com/embed/pDqCeM2t7A8",
+      "https://www.youtube.com/embed/zHRLRXSs-L8",
+      "https://www.youtube.com/embed/aye0suqNHno",
+      "https://www.youtube.com/embed/rAlHv_BwOlg",
+      "https://www.youtube.com/embed/QDtjBHYB1tM",
+      "https://www.youtube.com/embed/n0tMbq27IGQ",
+      "https://www.youtube.com/embed/Dgox6OoEtRY",
+      "https://www.youtube.com/embed/n5RHu9dWnZ0"
+    ]
+  },
+  {
+    "id": 4,
+    "curso": "Espanhol",
+    "nivel": "Básico",
+    "aulas": [
+      "https://www.youtube.com/embed/poNSk5TZ_98",
+      "https://www.youtube.com/embed/S8rEMv-xvNU",
+      "https://www.youtube.com/embed/IWDjXIefRAg",
+      "https://www.youtube.com/embed/eC16ICGNGXo",
+      "https://www.youtube.com/embed/2TfyvdwIUow",
+      "https://www.youtube.com/embed/USfzcz7Aq0k",
+      "https://www.youtube.com/embed/9xWluVio-wk",
+      "https://www.youtube.com/embed/YeBjzs_0hO4"
+    ]
+  },
+  {
+    "id": 5,
+    "curso": "Inglês",
+    "nivel": "Intermediário",
+    "aulas": [
+      "https://www.youtube.com/embed/VyCgJdRzAvA",
+      "https://www.youtube.com/embed/_WF5N3jejKg",
+      "https://www.youtube.com/embed/E0vSmKcjbc4",
+      "https://www.youtube.com/embed/6Ndhu3faWas",
+      "https://www.youtube.com/embed/AqCyQc3PtAQ",
+      "https://www.youtube.com/embed/mdfB9CJFExs",
+      "https://www.youtube.com/embed/OQ0GMdX3daE",
+      "https://www.youtube.com/embed/lnolhLL5Zwg"
+    ]
+  },
+  {
+    "id": 6,
+    "curso": "Inglês",
+    "nivel": "Avançado",
+    "aulas": [
+      "https://www.youtube.com/embed/s6xiRQ_pBQQ",
+      "https://www.youtube.com/embed/1Q7V7V315LY",
+      "https://www.youtube.com/embed/WoWPa1LdPPE",
+      "https://www.youtube.com/embed/vluFH1Ea0gc",
+      "https://www.youtube.com/embed/hCq8uAquFwk",
+      "https://www.youtube.com/embed/M5szeqf0TxQ",
+      "https://www.youtube.com/embed/TVqNdecP2Es",
+      "https://www.youtube.com/embed/el3CON8PiIs"
+    ]
+  },
+  {
+    "id": 7,
+    "curso": "Francês",
+    "nivel": "Básico",
+    "aulas": [
+      "https://www.youtube.com/embed/LWNvubHRIkQ",
+      "https://www.youtube.com/embed/RmTpNiEv4KA",
+      "https://www.youtube.com/embed/LZyTCAt6QXU",
+      "https://www.youtube.com/embed/kQ2BaaoWVXw",
+      "https://www.youtube.com/embed/AEIq6eP6s6I",
+      "https://www.youtube.com/embed/hi-k1G-0hGc",
+      "https://www.youtube.com/embed/0q0Zxyz1FRI",
+      "https://www.youtube.com/embed/2Wf9CEjMeNA"
+    ]
+  },
+  {
+    "id": 8,
+    "curso": "Francês",
+    "nivel": "Intermediário",
+    "aulas": [
+      "https://www.youtube.com/embed/WuDZxB1oYZw",
+      "https://www.youtube.com/embed/ew2VPQdHEAA",
+      "https://www.youtube.com/embed/9FQPS9Ndfpg",
+      "https://www.youtube.com/embed/TUbitlwL6o4",
+      "https://www.youtube.com/embed/BrcjaT3ybzQ",
+      "https://www.youtube.com/embed/e0ueVq2GqHQ",
+      "https://www.youtube.com/embed/Vvij88TBsD8",
+      "https://www.youtube.com/embed/snBa6dCnemg"
+    ]
+  },
+  {
+    "id": 9,
+    "curso": "Francês",
+    "nivel": "Avançado",
+    "aulas": [
+      "https://www.youtube.com/embed/uHpFsH0AlQ0",
+      "https://www.youtube.com/embed/SIS4NqnL8Cs",
+      "https://www.youtube.com/embed/s_kLfrAK5vQ",
+      "https://www.youtube.com/embed/pCsk1-GxcfQ",
+      "https://www.youtube.com/embed/YX8L6GzaPDE",
+      "https://www.youtube.com/embed/zYKDLCiWZm4",
+      "https://www.youtube.com/embed/oYN5QilPtV0",
+      "https://www.youtube.com/embed/lv6gYehELrM"
+    ]
+  },
+  {
+    "id": 10,
+    "curso": "Italiano",
+    "nivel": "Básico",
+    "aulas": [
+      "https://www.youtube.com/embed/qIAVjmdRNLc",
+      "https://www.youtube.com/embed/gJZsH6BWqaM",
+      "https://www.youtube.com/embed/L655QoCsg-E",
+      "https://www.youtube.com/embed/aJwx0hbw4HI",
+      "https://www.youtube.com/embed/g-B_3v3PpCc",
+      "https://www.youtube.com/embed/OGd-p6WWgNE",
+      "https://www.youtube.com/embed/6dGCeGorRhU",
+      "https://www.youtube.com/embed/3kDFHmKNxp0"
+    ]
+  },
+  {
+    "id": 11,
+    "curso": "Italiano",
+    "nivel": "Intermediário",
+    "aulas": [
+      "https://www.youtube.com/embed/CkPrtKM8wGU",
+      "https://www.youtube.com/embed/Oo9FctgtMl0",
+      "https://www.youtube.com/embed/h--gyMSuhrY",
+      "https://www.youtube.com/embed/dYem2kEuExs",
+      "https://www.youtube.com/embed/LiUwTdMrUyA",
+      "https://www.youtube.com/embed/X56KHvQ8zF0",
+      "https://www.youtube.com/embed/_IcehnwraoE",
+      "https://www.youtube.com/embed/Rfbi4bdP_Dk"
+    ]
+  },
+  {
+    "id": 12,
+    "curso": "Italiano",
+    "nivel": "Avançado",
+    "aulas": [
+      "https://www.youtube.com/embed/Gi4LZfSX-vA",
+      "https://www.youtube.com/embed/bYEqnjy0RKk",
+      "https://www.youtube.com/embed/D6p1nPpm1AU",
+      "https://www.youtube.com/embed/-MKtY7mAsMQ",
+      "https://www.youtube.com/embed/jwbu3ywHxZU",
+      "https://www.youtube.com/embed/NqvFfdA046E",
+      "https://www.youtube.com/embed/ZHgnzr54DmA",
+      "https://www.youtube.com/embed/4xAUFEzijLE"
+    ]
+  },
+  {
+    "id": 13,
+    "curso": "Alemão",
+    "nivel": "Básico",
+    "aulas": [
+      "https://www.youtube.com/embed/HKmxFGzdwEw",
+      "https://www.youtube.com/embed/7XYsDo89Fic",
+      "https://www.youtube.com/embed/Oy9tOIFzuMs",
+      "https://www.youtube.com/embed/qAOkQMtGDmk",
+      "https://www.youtube.com/embed/_8KpRqCE0Ak",
+      "https://www.youtube.com/embed/-8Na77i-7u8",
+      "https://www.youtube.com/embed/fz3ENt_bNTQ",
+      "https://www.youtube.com/embed/1cq52y-I4BQ"
+    ]
+  },
+  {
+    "id": 14,
+    "curso": "Alemão",
+    "nivel": "Intermediário",
+    "aulas": [
+      "https://www.youtube.com/embed/YOJwN8KRYaU",
+      "https://www.youtube.com/embed/kIk6fO5r2iU",
+      "https://www.youtube.com/embed/B-0EMmxtX-I",
+      "https://www.youtube.com/embed/iF7ZQ1OGRVg",
+      "https://www.youtube.com/embed/PFFpH1hQKcU",
+      "https://www.youtube.com/embed/NX34uEuR9_c",
+      "https://www.youtube.com/embed/ZoZY3qH0mCQ",
+      "https://www.youtube.com/embed/o6arLmQy8r8"
+    ]
+  },
+  {
+    "id": 15,
+    "curso": "Alemão",
+    "nivel": "Avançado",
+    "aulas": [
+      "https://www.youtube.com/embed/QQPoGucCJPk",
+      "https://www.youtube.com/embed/2YoPSmYksKE",
+      "https://www.youtube.com/embed/hfPUVH1wV4k",
+      "https://www.youtube.com/embed/xDR7W1uXGbU",
+      "https://www.youtube.com/embed/_uTodsSPWE4",
+      "https://www.youtube.com/embed/2Ui4qpEW9wQ",
+      "https://www.youtube.com/embed/qy7N3OxPRoU",
+      "https://www.youtube.com/embed/Ok6FtXHC-fw"
+    ]
   }
 ]

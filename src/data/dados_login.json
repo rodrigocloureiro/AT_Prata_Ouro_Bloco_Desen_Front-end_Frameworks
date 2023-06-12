@@ -74,7 +74,7 @@
     "username": "lucas.mendes",
     "senha": "banana",
     "tipo": "aluno",
-    "curso": "Espanhol",
+    "curso": "Francês",
     "nivel": "Avançado"
   },
   {
@@ -83,7 +83,7 @@
     "username": "carolina.ferreira",
     "senha": "banana",
     "tipo": "aluno",
-    "curso": "Espanhol",
+    "curso": "Italiano",
     "nivel": "Avançado"
   },
   {
@@ -92,7 +92,7 @@
     "username": "rafaela.costa",
     "senha": "banana",
     "tipo": "aluno",
-    "curso": "Espanhol",
+    "curso": "Francês",
     "nivel": "Avançado"
   },
   {
@@ -101,7 +101,7 @@
     "username": "gustavo.ramos",
     "senha": "banana",
     "tipo": "aluno",
-    "curso": "Espanhol",
+    "curso": "Italiano",
     "nivel": "Avançado"
   },
   {
@@ -110,7 +110,7 @@
     "username": "beatriz.fernandes",
     "senha": "banana",
     "tipo": "aluno",
-    "curso": "Espanhol",
+    "curso": "Francês",
     "nivel": "Avançado"
   },
   {
@@ -119,7 +119,7 @@
     "username": "mateus.silva",
     "senha": "banana",
     "tipo": "aluno",
-    "curso": "Espanhol",
+    "curso": "Italiano",
     "nivel": "Avançado"
   },
   {
@@ -164,7 +164,7 @@
     "username": "ava.thomas",
     "senha": "banana",
     "tipo": "aluno",
-    "curso": "Inglês",
+    "curso": "Francês",
     "nivel": "Básico"
   },
   {
@@ -173,7 +173,7 @@
     "username": "william.martinez",
     "senha": "banana",
     "tipo": "aluno",
-    "curso": "Inglês",
+    "curso": "Italiano",
     "nivel": "Básico"
   },
   {
@@ -182,7 +182,7 @@
     "username": "isabella.anderson",
     "senha": "banana",
     "tipo": "aluno",
-    "curso": "Inglês",
+    "curso": "Francês",
     "nivel": "Básico"
   },
   {
@@ -191,7 +191,7 @@
     "username": "james.johnson",
     "senha": "banana",
     "tipo": "aluno",
-    "curso": "Inglês",
+    "curso": "Italiano",
     "nivel": "Básico"
   },
   {
@@ -200,7 +200,7 @@
     "username": "mia.davis",
     "senha": "banana",
     "tipo": "aluno",
-    "curso": "Inglês",
+    "curso": "Alemão",
     "nivel": "Básico"
   },
   {
@@ -210,5 +210,236 @@
     "senha": "banana",
     "tipo": "professor",
     "curso": "Inglês"
+  },
+  {
+    "id": 25,
+    "nome": "Carlos Augusto",
+    "username": "carlos.augusto", 
+    "senha": "banana",
+    "tipo": "aluno",
+    "curso": "Espanhol",
+    "nivel": "Intermediário"
+  },
+  {
+    "id": 26,
+    "nome": "Renato Martins",
+    "username": "renato.martins", 
+    "senha": "banana",
+    "tipo": "aluno",
+    "curso": "Espanhol",
+    "nivel": "Básico"
+  },
+  {
+    "id": 27,
+    "nome": "Gabriel Azevedo",
+    "username": "gabriel.azevedo", 
+    "senha": "banana",
+    "tipo": "aluno",
+    "curso": "Inglês",
+    "nivel": "Intermediário"
+  },
+  {
+    "id": 28,
+    "nome": "Maria Silva",
+    "username": "maria.silva", 
+    "senha": "banana",
+    "tipo": "aluno",
+    "curso": "Inglês",
+    "nivel": "Avançado"
+  },
+  {
+    "id": 29,
+    "nome": "João Carlos",
+    "username": "joao.carlos", 
+    "senha": "banana",
+    "tipo": "aluno",
+    "curso": "Francês",
+    "nivel": "Básico"
+  },
+  {
+    "id": 30,
+    "nome": "Vicente Beaurepaire",
+    "username": "vicente55", 
+    "senha": "vicente55",
+    "tipo": "professor",
+    "curso": "Francês"
+  },
+  {
+    "id": 31,
+    "nome": "Augusto Costa",
+    "username": "augusto.costa", 
+    "senha": "banana",
+    "tipo": "aluno",
+    "curso": "Francês",
+    "nivel": "Intermediário"
+  },
+  {
+    "id": 32,
+    "nome": "Marcelo Freitas",
+    "username": "marcelo.freitas", 
+    "senha": "banana",
+    "tipo": "aluno",
+    "curso": "Francês",
+    "nivel": "Avançado"
+  },
+  {
+    "id": 33,
+    "nome": "Francesco De Luca",
+    "username": "francesco55", 
+    "senha": "francesco55",
+    "tipo": "professor",
+    "curso": "Italiano"
+  },
+  {
+    "id": 33,
+    "nome": "Fernando Carmelo",
+    "username": "fernando.carmelo", 
+    "senha": "banana",
+    "tipo": "aluno",
+    "curso": "Italiano",
+    "nivel": "Básico"
+  },
+  {
+    "id": 34,
+    "nome": "Luís Castro",
+    "username": "luis.castro", 
+    "senha": "banana",
+    "tipo": "aluno",
+    "curso": "Italiano",
+    "nivel": "Intermediário"
+  },
+  {
+    "id": 35,
+    "nome": "Maurício Souza",
+    "username": "mauricio.souza", 
+    "senha": "banana",
+    "tipo": "aluno",
+    "curso": "Italiano",
+    "nivel": "Avançado"
+  },
+  {
+    "id": 36,
+    "nome": "João Gabriel",
+    "username": "joao.gabriel", 
+    "senha": "banana",
+    "tipo": "aluno",
+    "curso": "Alemão",
+    "nivel": "Básico"
+  },
+  {
+    "id": 37,
+    "nome": "Felipe Lima",
+    "username": "felipe.lima", 
+    "senha": "banana",
+    "tipo": "aluno",
+    "curso": "Alemão",
+    "nivel": "Intermediário"
+  },
+  {
+    "id": 38,
+    "nome": "Custódio Ferreira",
+    "username": "custodio.ferreira", 
+    "senha": "banana",
+    "tipo": "aluno",
+    "curso": "Alemão",
+    "nivel": "Avançado"
+  },
+  {
+    "id": 39,
+    "nome": "Franz Mallmann",
+    "username": "franz55", 
+    "senha": "franz55",
+    "tipo": "professor",
+    "curso": "Alemão"
+  },
+  {
+    "id": 40,
+    "nome": "Carlos Mendes",
+    "username": "carlos.mendes",
+    "senha": "banana",
+    "tipo": "aluno",
+    "curso": "Inglês",
+    "nivel": "Intermediário"
+  },
+  {
+    "id": 41,
+    "nome": "Isabela Lima",
+    "username": "isabela.lima",
+    "senha": "banana",
+    "tipo": "aluno",
+    "curso": "Alemão",
+    "nivel": "Avançado"
+  },
+  {
+    "id": 42,
+    "nome": "Rafaela Pereira",
+    "username": "rafaela.pereira",
+    "senha": "banana",
+    "tipo": "aluno",
+    "curso": "Inglês",
+    "nivel": "Intermediário"
+  },
+  {
+    "id": 43,
+    "nome": "Fernando Gomes",
+    "username": "fernando.gomes",
+    "senha": "banana",
+    "tipo": "aluno",
+    "curso": "Inglês",
+    "nivel": "Intermediário"
+  },
+  {
+    "id": 44,
+    "nome": "Gabriela Rodrigues",
+    "username": "gabriela.rodrigues",
+    "senha": "banana",
+    "tipo": "aluno",
+    "curso": "Alemão",
+    "nivel": "Avançado"
+  },
+  {
+    "id": 45,
+    "nome": "Ricardo Torres",
+    "username": "ricardo.torres",
+    "senha": "banana",
+    "tipo": "aluno",
+    "curso": "Inglês",
+    "nivel": "Intermediário"
+  },
+  {
+    "id": 46,
+    "nome": "Laura Fernandes",
+    "username": "laura.fernandes",
+    "senha": "banana",
+    "tipo": "aluno",
+    "curso": "Alemão",
+    "nivel": "Intermediário"
+  },
+  {
+    "id": 47,
+    "nome": "Miguel Gomes",
+    "username": "miguel.gomes",
+    "senha": "banana",
+    "tipo": "aluno",
+    "curso": "Espanhol",
+    "nivel": "Intermediário"
+  },
+  {
+    "id": 48,
+    "nome": "Luana Santos",
+    "username": "luana.santos",
+    "senha": "banana",
+    "tipo": "aluno",
+    "curso": "Espanhol",
+    "nivel": "Intermediário"
+  },
+  {
+    "id": 49,
+    "nome": "Gustavo Lima",
+    "username": "gustavo.lima",
+    "senha": "banana",
+    "tipo": "aluno",
+    "curso": "Alemão",
+    "nivel": "Intermediário"
   }
 ]
