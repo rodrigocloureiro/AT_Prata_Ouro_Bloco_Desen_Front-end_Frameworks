@@ -22,7 +22,9 @@ export default class AreaProfessor extends Component {
           <div className="professor_area_alunos">
             <ul className="lista_alunos">
               {
-                alunos.map(aluno => (
+                alunos
+                .sort((a, b) => `${a.curso}-${a.nivel}` > `${b.curso}-${b.nivel}` ? 1 : -1)
+                .map(aluno => (
                   <li key={aluno.id} className="aluno">
                     <p className="aluno__nome">{aluno.nome}</p>
                     <div className="aluno__detalhes">
