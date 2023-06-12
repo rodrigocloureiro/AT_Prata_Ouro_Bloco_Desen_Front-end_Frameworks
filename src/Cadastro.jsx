@@ -52,6 +52,8 @@ export default class Cadastro extends Component {
       handleAdicionaMembro(nome, curso, nivel, username, senha);
       //item 1.3 realizado
       this.setState({cadastrou: true});
+    } else {
+      alert("Dados inválidos! (Ex.: Senhas não conferem)");
     }
   };
 
