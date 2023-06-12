@@ -44,6 +44,7 @@
 .aluno__detalhes {
   display: flex;
   gap: 0 20px;
+  min-width: 300px;
 }
 
 .turma_detalhes {

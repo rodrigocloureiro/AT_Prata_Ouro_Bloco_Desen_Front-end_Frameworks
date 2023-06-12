@@ -23,7 +23,9 @@ export default class AreaCoordenador extends Component {
             <h3 className="coordenador_area_subtitle">Professores</h3>
             <ul className="lista_funcionarios">
               {
-                funcionarios.map(funcionario => (
+                funcionarios
+                .sort((a, b) => a.curso > b.curso ? 1 : -1)
+                .map(funcionario => (
                   <li key={`funcionario${funcionario.id}`} className="funcionario">
                     <p className="funcionario__nome">{funcionario.nome}</p>
                     <p className="funcionario__curso">{funcionario.curso}</p>
@@ -36,7 +38,9 @@ export default class AreaCoordenador extends Component {
             <h3 className="coordenador_area_subtitle">Alunos</h3>
             <ul className="lista_alunos">
               {
-                alunos.map(aluno => (
+                alunos
+                .sort((a, b) => `${a.curso}-${a.nivel}` > `${b.curso}-${b.nivel}` ? 1 : -1)
+                .map(aluno => (
                   <li key={`aluno${aluno.id}`} className="aluno">
                     <p className="aluno__nome">{aluno.nome}</p>
                     <div className="aluno__detalhes">
