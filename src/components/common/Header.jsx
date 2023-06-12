@@ -1,7 +1,7 @@
 import { Component } from "react";
 import { Link, NavLink } from "react-router-dom";
-import './Header.css';
-import logo from './assets/global_connect_logo.png';
+import './styles/Header.css';
+import logo from '../../assets/global_connect_logo.png';
 
 export default class Header extends Component {
   constructor(props) {

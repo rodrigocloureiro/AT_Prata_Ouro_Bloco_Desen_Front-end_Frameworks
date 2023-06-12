@@ -1,5 +1,5 @@
 import { Component } from 'react';
-import './AreaProfessor.css';
+import './styles/AreaProfessor.css';
 
 export default class AreaProfessor extends Component {
   constructor(props) {

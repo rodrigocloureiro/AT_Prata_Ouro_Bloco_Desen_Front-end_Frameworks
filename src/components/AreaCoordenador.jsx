@@ -1,5 +1,5 @@
 import { Component } from "react";
-import './AreaCoordenador.css';
+import './styles/AreaCoordenador.css';
 
 export default class AreaCoordenador extends Component {
   constructor(props) {

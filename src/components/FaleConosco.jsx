@@ -1,8 +1,8 @@
 import { Component } from "react";
-import "./FaleConosco.css";
-import Input from "./Input";
-import TextArea from "./TextArea";
-import Botao from "./Botao";
+import "./styles/FaleConosco.css";
+import Input from "./common/Input";
+import TextArea from "./common/TextArea";
+import Botao from "./common/Botao";
 import { object, string, reach } from "yup";
 
 // item 3.3 realizado

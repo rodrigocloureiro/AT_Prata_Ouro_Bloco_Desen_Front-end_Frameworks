@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import './Contato.css';
+import './styles/Contato.css';
 
 export default function Contato({contatos}) {
   const { contatoID } = useParams();

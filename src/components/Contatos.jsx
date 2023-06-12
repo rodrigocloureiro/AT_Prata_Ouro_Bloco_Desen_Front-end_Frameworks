@@ -1,6 +1,6 @@
 import { Link, Outlet } from 'react-router-dom';
-import './Contatos.css';
-import banner from './assets/contact-us-banner.png';
+import './styles/Contatos.css';
+import banner from '../assets/contact-us-banner.png';
 import { useState ,useEffect } from 'react';
 
 export default function Contatos({setContatos}) {

@@ -1,6 +1,6 @@
-import "./QuemSomos.css";
+import "./styles/QuemSomos.css";
 import { Component } from "react";
-import banner from "./assets/quem_somos_banner.png";
+import banner from "../assets/quem_somos_banner.png";
 
 export default class QuemSomos extends Component {
   constructor(props) {

@@ -1,9 +1,9 @@
 import { Component } from "react";
-import './Footer.css';
-import facebook from './assets/facebook.png';
-import instagram from './assets/instagram.png';
-import twitter from './assets/twitter.png';
-import footerShape from './assets/footer_shape.png';
+import './styles/Footer.css';
+import facebook from '../../assets/facebook.png';
+import instagram from '../../assets/instagram.png';
+import twitter from '../../assets/twitter.png';
+import footerShape from '../../assets/footer_shape.png';
 
 export default class Footer extends Component {
   constructor(props) {

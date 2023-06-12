@@ -1,5 +1,5 @@
 import { Component } from "react";
-import './Cadastro.css';
+import './styles/Cadastro.css';
 import Input from "./Input";
 import Select from "./Select";
 import { Link, Navigate } from "react-router-dom";

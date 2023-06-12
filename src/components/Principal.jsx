@@ -1,11 +1,11 @@
 import { Component } from "react";
-import imageBoy from './assets/image_boy.png';
-import './Principal.css';
+import imageBoy from '../assets/image_boy.png';
+import './styles/Principal.css';
 import { Link } from "react-router-dom";
-import MiniCard from "./MiniCard";
-import img1MiniCard from './assets/img1_minicard.png';
-import img2MiniCard from './assets/img2_minicard.png';
-import img3MiniCard from './assets/img3_minicard.png';
+import MiniCard from "./common/MiniCard";
+import img1MiniCard from '../assets/img1_minicard.png';
+import img2MiniCard from '../assets/img2_minicard.png';
+import img3MiniCard from '../assets/img3_minicard.png';
 
 export default class Principal extends Component {
   constructor(props) {

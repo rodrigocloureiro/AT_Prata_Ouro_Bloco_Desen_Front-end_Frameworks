@@ -1,4 +1,4 @@
-import "./Select.css";
+import "./styles/Select.css";
 
 export default function Select({label, name, item, handleEvent}) {
   return (

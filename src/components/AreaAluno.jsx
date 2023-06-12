@@ -1,4 +1,4 @@
-import "./AreaAluno.css";
+import "./styles/AreaAluno.css";
 import { Component } from "react";
 import { useEffect, useLayoutEffect, useState } from "react";
 import { useParams } from "react-router-dom";

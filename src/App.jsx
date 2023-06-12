@@ -1,20 +1,20 @@
 //item 1.5 realizado - 6 componentes criados e importados abaixo
 import "./App.css";
-import Header from "./Header";
-import Principal from './Principal';
-import QuemSomos from "./QuemSomos";
-import Footer from "./Footer";
+import Header from "./components/common/Header";
+import Principal from './components/Principal';
+import QuemSomos from "./components/QuemSomos";
+import Footer from "./components/common/Footer";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import FaleConosco from "./FaleConosco";
-import TrabalheConosco from "./TrabalheConosco";
-import Login from "./Login";
-import Cadastro from "./Cadastro";
+import FaleConosco from "./components/FaleConosco";
+import TrabalheConosco from "./components/TrabalheConosco";
+import Login from "./components/Login";
+import Cadastro from "./components/common/Cadastro";
 import { useEffect, useState, useReducer } from "react";
-import AreaAluno from "./AreaAluno";
-import AreaProfessor from "./AreaProfessor";
-import AreaCoordenador from "./AreaCoordenador";
-import Contatos from "./Contatos";
-import Contato from "./Contato";
+import AreaAluno from "./components/AreaAluno";
+import AreaProfessor from "./components/AreaProfessor";
+import AreaCoordenador from "./components/AreaCoordenador";
+import Contatos from "./components/Contatos";
+import Contato from "./components/common/Contato";
 
 // Itens mais geneéricos eu coloquei acima do componente principal da aplicação
 //item 1.7 realizado

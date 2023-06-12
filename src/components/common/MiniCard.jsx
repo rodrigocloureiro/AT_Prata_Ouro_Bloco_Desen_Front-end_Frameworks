@@ -1,5 +1,5 @@
 import { Component } from "react";
-import './MiniCard.css';
+import './styles/MiniCard.css';
 
 export default class MiniCard extends Component {
   constructor(props) {

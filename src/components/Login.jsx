@@ -1,6 +1,6 @@
 import { Component } from "react";
-import './Login.css';
-import Input from "./Input";
+import './styles/Login.css';
+import Input from "./common/Input";
 import { Link, Navigate } from "react-router-dom";
 
 export default class Login extends Component {

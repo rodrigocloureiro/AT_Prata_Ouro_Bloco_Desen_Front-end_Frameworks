@@ -1,4 +1,4 @@
-import './Botao.css';
+import './styles/Botao.css';
 
 export default function Botao({type, texto, largura, corTexto, padding, radius}) {
   return (

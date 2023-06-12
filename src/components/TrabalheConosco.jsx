@@ -1,8 +1,8 @@
-import "./TrabalheConosco.css";
-import Input from "./Input";
-import TextArea from "./TextArea";
+import "./styles/TrabalheConosco.css";
+import Input from "./common/Input";
+import TextArea from "./common/TextArea";
 import { useState } from "react";
-import Botao from "./Botao";
+import Botao from "./common/Botao";
 import { object, string, reach } from "yup";
 
 // item 3.3 realizado
