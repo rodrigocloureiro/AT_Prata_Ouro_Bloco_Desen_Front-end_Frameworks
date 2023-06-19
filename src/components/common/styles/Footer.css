@@ -69,3 +69,9 @@ footer .info {
   bottom: 0;
   left: 0;
 }
+
+@media (min-width: 2700px) {
+  .footer_img {
+    max-width: 2373px;
+  }
+}
