@@ -1,11 +1,11 @@
 # GlobalConnect
 Trabalho final para faculdade referente ao Bloco: Desenvolvimento Front-end com Frameworks.
 
-# O projeto deveria seguir os seguintes requisitos:
-
 # [Run here](https://cursoglobalconnect.netlify.app/)
 
 <img src='https://i.imgur.com/BDevn54.png' alt='Imagem projeto IMC' style="width: 80%;" />
+
+## O projeto deveria seguir os seguintes requisitos:
 
 Você foi contratado para desenvolver um site em ReactJS para um Curso de Idiomas online. Seu projeto deve apresentar dados dinâmicos em uma interface. O seu site deve conter os links: Quem somos, Login, Fale conosco (formulário), Área do professor, Trabalhe conosco (formulário) e Área do aluno: Sala de aula com os vídeos das aulas referentes ao curso atual e ao nível do aluno (básico, intermediário e avançado). O site deve possuir uma área de login com tipos de usuário (professor, aluno, visitante, coordenador).
 
