@@ -3,7 +3,7 @@ Trabalho final para faculdade referente ao Bloco: Desenvolvimento Front-end com 
 
 # O projeto deveria seguir os seguintes requisitos:
 
-#[Run here](https://cursoglobalconnect.netlify.app/)
+# [Run here](https://cursoglobalconnect.netlify.app/)
 
 <img src='https://i.imgur.com/BDevn54.png' alt='Imagem projeto IMC' style="width: 80%;" />
 
