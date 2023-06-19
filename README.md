@@ -11,7 +11,7 @@ Você foi contratado para desenvolver um site em ReactJS para um Curso de Idioma
 
 Use sua criatividade para compor seu site com os seguintes itens:
 
-Tópico 1: Desenvolver aplicações que respondam à eventos com a atualização da interface (Prata)
+### Tópico 1: Desenvolver aplicações que respondam à eventos com a atualização da interface (Prata)
 
 1.1 Use event handlers usando o método bind e a diretiva this
 
@@ -31,7 +31,7 @@ Tópico 1: Desenvolver aplicações que respondam à eventos com a atualização
 
 1.9 Use a estrutura do HTML5.
 
-Tópico 2: Desenvolver componentes usando React Hooks (Prata)
+### Tópico 2: Desenvolver componentes usando React Hooks (Prata)
 
 2.1 Use o hook useState
 
@@ -47,7 +47,7 @@ Tópico 2: Desenvolver componentes usando React Hooks (Prata)
 
 2.7 Ao finalizar um item de cada um dos tópicos do site (2 tópicos Prata e 2 Ouro), crie um comentário indicando o item que foi realizado antes de iniciar o trecho de código dele. Por exemplo, para identificar o item 1.1 adicione na linha anterior ao código em questão, o seguinte comentário: “//item 1.1 realizado Este procedimento deverá ser realizado em todos os itens do site.
 
-Tópico 3: Criar formulários web usando componentes ReactJS (Ouro)
+### Tópico 3: Criar formulários web usando componentes ReactJS (Ouro)
 
 3.1 Use campos de entrada de um formulário e estados nas páginas Fale conosco e Trabalhe conosco.
 
@@ -55,7 +55,7 @@ Tópico 3: Criar formulários web usando componentes ReactJS (Ouro)
 
 3.3 Crie validações em tempo real para os dois formulários (Fale Conosco e Trabalhe Conosco). Use a biblioteca Yup.
 
-Tópico 4: Criar aplicações React com múltiplas páginas usando React Router (Ouro)
+### Tópico 4: Criar aplicações React com múltiplas páginas usando React Router (Ouro)
 
 4.1 Crie rotas com ReactRouter 6
 
