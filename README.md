@@ -5,7 +5,7 @@ Os dados para login se encontram no arquivo "dados_login.json".
 
 # [Run here](https://cursoglobalconnect.netlify.app/)
 
-<img src='https://i.imgur.com/BDevn54.png' alt='Imagem projeto IMC' style="width: 80%;" />
+<img src='https://i.imgur.com/BDevn54.png' alt='GlobalConnect' style="width: 80%;" />
 
 ## O projeto deveria seguir os seguintes requisitos:
 
