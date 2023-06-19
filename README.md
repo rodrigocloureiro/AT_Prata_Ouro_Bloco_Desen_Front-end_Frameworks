@@ -1,6 +1,8 @@
 # GlobalConnect
 Trabalho final para faculdade referente ao Bloco: Desenvolvimento Front-end com Frameworks.
 
+Os dados para login se encontram no arquivo "dados_login.json".
+
 # [Run here](https://cursoglobalconnect.netlify.app/)
 
 <img src='https://i.imgur.com/BDevn54.png' alt='Imagem projeto IMC' style="width: 80%;" />
