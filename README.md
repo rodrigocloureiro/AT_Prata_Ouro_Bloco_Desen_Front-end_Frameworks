@@ -3,6 +3,8 @@ Trabalho final para faculdade referente ao Bloco: Desenvolvimento Front-end com 
 
 Os dados para login se encontram no arquivo "dados_login.json".
 
+**O projeto ainda não está responsivo.**
+
 # [Run here](https://cursoglobalconnect.netlify.app/)
 
 <img src='https://i.imgur.com/BDevn54.png' alt='GlobalConnect' style="width: 80%;" />
