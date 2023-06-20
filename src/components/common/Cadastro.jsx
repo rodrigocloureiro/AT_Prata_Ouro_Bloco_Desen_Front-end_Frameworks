@@ -23,7 +23,8 @@ export default class Cadastro extends Component {
   //item 1.4 realizado
   async componentDidMount() {
     //item 1.6 realizado
-    const response = await fetch("src/data/cursos.json");
+    // const response = await fetch("src/data/cursos.json");
+    const response = await fetch("https://api.npoint.io/309cc09196745254f1b5");
     const data = await response.json();
     this.setState({cursos: data.cursos, niveis: data.niveis});
   }

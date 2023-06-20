@@ -9,7 +9,8 @@ export default function Contatos({setContatos}) {
 
   //item 1.3 realizado && item 2.3 realizado
   useEffect(() => {
-    fetch("../src/data/contatos.json")
+    // fetch("../src/data/contatos.json")
+    fetch("https://api.npoint.io/5c420e79739db38b890d")
     .then(response => response.json())
     .then(data => {
       setDados(data.contatos);

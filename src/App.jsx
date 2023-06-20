@@ -46,7 +46,8 @@ function App() {
   useEffect(() => {
     (async () => {
       //item 1.6 realizado
-      const response = await fetch("../src/data/dados_login.json");
+      // const response = await fetch("../src/data/dados_login.json");
+      const response = await fetch("https://api.npoint.io/be30fb370b71c6721e15");
       const data = await response.json();
       //item 1.3 realizado
       setCorpo(data);

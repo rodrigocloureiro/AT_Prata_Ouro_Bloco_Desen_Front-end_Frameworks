@@ -84,7 +84,8 @@ export default function AreaAluno({usuario}) {
   //item 1.4 realizado && item 2.3 realizado
   useEffect(() => {
     //item 1.6 realizado
-    fetch('../src/data/aulas.json')
+    // fetch('../src/data/aulas.json')
+    fetch('https://api.npoint.io/dffb4c0b6953e7192681')
     .then(response => response.json())
     .then(data => {
       data.forEach(item => {
